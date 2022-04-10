@@ -1,0 +1,132 @@
+/*Arquivo css para o exercício da página "Design Digital"*/
+
+ul {
+
+	font-family: sans-serif;
+	color: dimgray;
+	
+	text-align: right;
+	width: 400px;
+
+}
+
+li {
+	display: inline;
+	text-align: right;
+	margin-left: 20px;
+}
+
+.links-cabecalho{
+	
+	margin: auto 0px 0px auto;
+	
+}
+
+header {
+	display: flex;
+	width: 900px;
+	margin: 10px auto 0px auto;
+	align-items: center;
+	text-align: right;
+
+}
+
+
+.logo-design{
+	width: 200px;
+	margin: 20px 0px 20px 0px;
+	text-align: left;
+
+}
+.banner-main{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.construcao-web-container{
+
+	display: flex;
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+#titulo-construcao{
+
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: lighter;
+}
+
+#depoimentos{
+
+	color: lightblue;
+	font-weight: lighter;
+}
+.construcao-web{
+	font-family: sans-serif;
+	line-height: 19px;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 30px;
+	padding: 8px 5px 8px 20px;
+	width: 360px;
+	height: 180px;
+	color: white;
+	position: absolute;
+	align-items: center;
+
+	z-index: 5;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/*Seção que contém os ícones e textos*/
+
+section{
+	width: 900px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	font-family: sans-serif;
+	color: dimgray;
+	font-weight: 100;
+}
+
+h3{
+	font-weight: 500;
+	font-size: 21px;
+	margin-bottom: 30px;
+}
+
+/*Cada caixa de texto com imagem*/
+
+article {
+
+	
+	width: 210px;
+
+	margin: 25px 0px 20px 0px;
+
+	
+}
+
+.icon1{
+	width: 210px;
+}
+
+body {
+	height: 100%;
+	margin: 0 auto;
+	
+}
+
+footer{
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: dimgray;
+}
+
