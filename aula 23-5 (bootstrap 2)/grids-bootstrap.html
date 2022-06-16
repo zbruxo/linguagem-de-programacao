@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - Sistema de grids</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+  </head>
+
+  <body class="bg-dark">
+    <!-- Classe container -->
+  	<div class="container rounded bg-secondary text-light p-2">	
+  		Conteúdo do site
+  	</div>
+    
+    <br>
+
+    <div class="container rounded bg-secondary text-light p-2"> 
+      <div class="row">
+        Conteúdo
+      </div>
+    </div>
+
+    <br>
+
+    <div class="container bg-secondary"> 
+      <!-- usamos a classe row para dizer que o conteudo ocupa uma mesma linha -->
+      <div class="row">
+        <div class="bg-warning">
+          Area 1
+        </div>
+        <div class="bg-primary">
+          Area 2
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+    <div class="container bg-secondary"> 
+        <div class="row">
+          <!-- Aqui definimos a quantidade de colunas que a div irá ocupar (col é o breakpoint extra small)-->
+          <!-- estamos dizendo que a partir do tamanho menor, o container ocupará 3 colunas, então  -->
+          <!-- usará essa proporção em todos os tamanhos do navegador -->
+          <div class="bg-warning col-3">
+            Area 1
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container bg-secondary"> 
+        <div class="row">
+
+          <div class="bg-warning col-2">
+            coisa 1
+          </div>
+
+          <div class="bg-primary col-10">
+            coisa 2
+          </div>
+
+
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container bg-secondary"> 
+        <div class="row">
+          <!-- Aqui  nós informamos quantas colunas queremos em outros breakpoints, small, medium, large...-->
+          <div class="bg-warning col-6 col-sm-2 col-md-10">
+            fulano
+          </div>
+          <!-- Os containers devem manter a mesma proporção de 12 colunas para ocupar o espaço todo no navegador -->
+          <div class="bg-primary col-6 col-sm-10 col-md-2">
+            sicrano
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container bg-secondary"> 
+        <div class="row">
+          <div class="bg-success col-6 col-sm-2 col-md-10 col-lg-6 col-xl-2">
+            fulano
+          </div>
+          <div class="bg-warning col-6 col-sm-10 col-md-2 col-lg-6 col-xl-10">
+            sicrano
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+
+      <div class="container bg-secondary"> 
+        <div class="row">
+          <!-- Se não definimos as colunas para um tamanho menor (neste caso, so defini a partir do col-md), 
+            o bootstrap considera que sses containers ocupam as 12 colunas cada, então ficam um embaixo do outro -->
+          <div class="col-md-3" style="background-color: indianred; color: white;">
+            maçã
+          </div>
+          <div class="col-md-9" style="background-color: darkorange; color: white;">
+            mamão
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+
+
+      <div class="container bg-secondary"> 
+        <div class="row">
+
+          <div class="bg-light border col-md-6 p-3">
+            <h2>Lorem ipsum dolores sit amount</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <a href="#" class="btn btn-lg btn-secondary" style="background-color: lightseagreen;">Saiba mais</a>
+          </div>
+
+
+          <div class="bg-light border col-md-6 p-3">
+            <h2>Lorem ipsum dolores sit amount</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+
+            <a href="#" class="btn btn-lg btn-secondary" style="background-color: lightseagreen;">Saiba mais</a>
+
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+
+      <div class="container bg-secondary"> 
+        <div class="row">
+
+          <div class="bg-light border p-3 col-md-6 col-lg-4">
+            <h2>Participe do nosso projeto</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <a href="#" class="btn btn-lg btn-secondary" style="background-color: lightseagreen;">Saiba mais</a>
+          </div>
+
+
+          <div class="bg-light border p-3 col-md-6 col-lg-4">
+            <h2>Conheça nossos parceiros</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+
+            <a href="#" class="btn btn-lg btn-secondary" style="background-color: lightseagreen;">Saiba mais</a>
+          </div>
+
+          <div class="bg-light border p-3 col-md-6 col-lg-4">
+            <h2>Entre em contato</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+
+            <a href="#" class="btn btn-lg btn-secondary" style="background-color: lightseagreen;">Saiba mais</a>
+          </div>
+
+        </div>
+      </div>
+
+
+	
+<!-- Configuração do Grid -->
+<!-- Para fazer uma largura fixa das colunas, podemos apenas inserir "col", dessa forma
+o bootstrap calcula a proporção dos elementos dentro do row automaticamente: -->
+
+  <div class="container bg-light border">
+
+    <h2>Largura fixa</h2>
+    <div class="row">
+
+      <div class="bg-primary border col">Largura fixa 1</div>
+      <div class="bg-primary border col">Largura fixa 2</div>
+      <div class="bg-primary border col">Largura fixa 3</div>
+      <div class="bg-primary border col">Largura fixa 4</div>
+
+    </div>
+
+<!-- o bootstrap completa a largura omitida, em relação as outras escritas nas divs -->
+    <h2>Largura automática (auto-layout)</h2>
+    <div class="row">
+
+      <div class="bg-primary border col-6">Largura fixa 1</div>
+      <div class="bg-primary border col-4">Largura fixa 2</div>
+      <div class="bg-primary border col">Largura fixa 3</div>
+
+    </div>
+
+
+    <h2>Largura igual empilhada</h2>
+    <div class="row">
+<!-- Neste exemplo, o bootstrap dividirá os elementos proporcionalmente a partir do tamanho small -->
+      <div class="bg-primary border col-sm">Largura fixa 1</div>
+      <div class="bg-primary border col-sm">Largura fixa 2</div>
+      <div class="bg-primary border col-sm">Largura fixa 3</div>
+
+    </div>
+
+
+    <h2>Ordenando</h2>
+    <div class="row">
+      <!-- Neste exemplo, definimos a ordem de apresentação dos elementos -->
+      <div class="bg-warning border col order-3">coisa 1</div>
+      <div class="bg-warning border col">coisa 2</div>
+      <div class="bg-warning border col">coisa 3</div>
+
+    </div>
+
+
+    <h2>Offset</h2>
+    <div class="row">
+      <!-- Aqui criamos um deslocamento com base nas colunas que sobram no container -->
+      <!-- Neste caso, usamos 4 colunas para o elemento, então usamos offset de 4 para cada lado -->
+      <div class="bg-secondary border col-md-4 offset-md-4">Login</div>
+    </div>
+
+
+
+    <h2>Offset de múltiplos alinhamentos</h2>
+    <div class="row">
+      <div class="bg-light border col-md-3 offset-md-6">coisa 1</div>
+      <div class="bg-light border col-md-3">coisa 2</div>
+      
+
+    </div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
